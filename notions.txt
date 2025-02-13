@@ -1,0 +1,51 @@
+conteneurisation => mutualisation ou virtualisdation de machine virtuelle
+faciliter la gestion des dépendances entre les dev et les sysadmin
+conteneur => 1 ou plusieurs process /  isolation avec cgroups et namespaces=> actication d'une image de manière isolée
+image => enveloppe de stockage = code de programme + toutes les dépendances
+
+infra -> serveur - os - docker engine = conteneur runtime -> dep -> app1 
+                                                          -> dep -> app2
+
+    => isolation des processus sous forme d'image au niveau sécurité et ressources 
+
+avant : infra -> hyperviseur -> Emul -> os1 -> dep -> app1
+                             -> Emul -> os2 -> dep -> app2  
+
+
+voc     
+conteneurd, runc, gnupg -> clés gpg 
+entrypoint: processus parent qui lance le conteneur
+
+
+cmd
+ps aux | grep nginx
+sudo usermod -aG docker $USER   (pour éviter de taper à chaque fois sudo)
+nom de l'image: <url_registry>/<nom_image>:<tag>
+docker run --help
+    docker --name -d -it
+
+volumes
+    bind mount sur linux 
+        sudo findmnt
+
+        sudo mount --bind /data/ /data2/
+
+
+
+        on écrase les données de l'image
+        --mount type(bind/volume/tmpfs) source=path
+                target=path nginx:latest
+        
+    volumes docker
+        les données du conteneur sont utilisé pour le montage
+        -v ou --volume nom_volume:path dans le conteneur 
+
+    tmpfs
+        quanf le conteneur est supprimé les données sont supprimées
+
+    il faut relier les utilisateurs et les process à l'intérieur du conteneur à ceux à l'extérieur du conteneur
+    useradd  -u 1111 ayunkiuikuy;l******
+    docker build -t myimage:v1.0 .
+    docker run -d --name c1 -v /myvolume/:/data/ -u ayun myimage:v1.0yvolume/ est juste un dossier créer sur le host) sleep infinity
+    docker exec -ti bash   
+
