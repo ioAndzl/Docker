@@ -1,0 +1,9 @@
+rappel diff vm et conteneurisation : système d'exploitation mutualisé avec au dessus l emoteur docker 
+images
+conteneur
+étapes installations : script + explication du script 
+tests:  docker ps -a -d / ps aux | grep nginx
+
+
+
+
