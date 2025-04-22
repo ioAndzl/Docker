@@ -1,0 +1,8 @@
+rappel images : meta package : code / static
+CLI
+sans le sudo : sudo usermod -aG docker $USER
+cmd generale : tag (version ou latest)
+tests: commandes générales
+    entrypoint: le script qu permet de lancer les processus du conteneur
+résumé
+

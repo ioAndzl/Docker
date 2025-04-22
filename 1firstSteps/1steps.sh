@@ -28,7 +28,4 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 # docker ps -a
 # docker run -d nginx:latest
 
-# ps aux | grep nginx
-
-
-
+# ps aux | grep nginx 
