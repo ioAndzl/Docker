@@ -1,0 +1,4 @@
+dev<->sysadmin
+processus isolé des autres avec les cgroups et les namespaces
+MV(Hyperviseur: Emul + OS1|OS2|OS3) versus Serveur|OS|Moteur Docker(image inactif) activé par Deps/Apps(conteneur)
+

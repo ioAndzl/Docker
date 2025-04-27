@@ -5,8 +5,8 @@
 docker run -d --name c1 nginx:latest
 docker run -d --name c1 -p 8080:80 nginx:latest
 docker run -ti debian:latest 
-docker run -ti --hostname c1 debian:latest
-docker run -ti --rm --hostname c1 debian:latest
+docker run -ti --name c1 --hostname host1 debian:latest
+docker run -ti --rm --name c1 --hostname host1 debian:latest
     avec le --rm quand on 'exit' le conteneur il est
     automatiquement supprimé
 docker stop c1
