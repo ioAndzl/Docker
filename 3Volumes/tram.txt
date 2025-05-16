@@ -1,5 +1,12 @@
 entrevu des partie des videos
-explication de l'utilité des volumes
+rappel conteneur
+volume: indépédance au processus générale grâce au namespace
+    explication de l'utilité des volumes
+avantages
 namespaces=>permet d'isoler un ensemble d'éléments du processus main
 schema general
 commandes generales
+
+
+======= add on 
+gifs
