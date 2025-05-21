@@ -1,10 +1,11 @@
+entrevu des partie des videos
 rappel conteneur
-voulume: indépédance au processus générale grâce au namespace
+volume: indépédance au processus générale grâce au namespace
+    explication de l'utilité des volumes
 avantages
-
-
-
-
+namespaces=>permet d'isoler un ensemble d'éléments du processus main
+schema general
+commandes generales
 
 
 
