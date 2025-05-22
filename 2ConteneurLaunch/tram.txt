@@ -5,4 +5,3 @@ cmd generale : tag (version ou latest)
 tests: commandes générales
     entrypoint: le script qu permet de lancer les processus du conteneur
 résumé
-
