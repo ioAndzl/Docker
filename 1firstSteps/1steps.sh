@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-
+#https://gitlab.com/xavki/docker-v2/-/tree/main?ref_type=heads
 
 ## Suppression de la précédente version de Docker
 sudo apt remove docker docker-engine docker.io containerd runc
@@ -24,8 +24,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ## Premier pas 
 
 # docker ps
-# docker run nginx:latest
+# docker run nginx:latest => ctrl+c docker ps 
 # docker ps -a
 # docker run -d nginx:latest
 
+<<<<<<< Updated upstream:1firstSteps/1steps.sh
 # ps aux | grep nginx 
+=======
+sudo usermod -aG docker $USER 
+>>>>>>> Stashed changes:1steps.sh

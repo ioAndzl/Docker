@@ -1,9 +1,10 @@
 entrevu des partie des videos
-rappel conteneur
-volume: indépédance au processus générale grâce au namespace
+rappel conteneur: processus qui tourne sur l'os
+volume: indépédance au processus générale grâce au namespace: on considere donc le conteneur comme une enveloppe plus qu'un processus
     explication de l'utilité des volumes
 avantages
 namespaces=>permet d'isoler un ensemble d'éléments du processus main
+persistance et partage de la donnée en dehors du conteneur
 schema general
 commandes generales
 

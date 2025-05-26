@@ -1,5 +1,7 @@
 #!/usr/bin/bash
+#https://gitlab.com/xavki/docker-v2/-/tree/main?ref_type=heads
 
+docker run --help
 
 #Lancement de conteneur
 docker run -d --name c1 nginx:latest

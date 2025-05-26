@@ -2,7 +2,7 @@ conteneurisation => mutualisation ou virtualisdation de machine virtuelle
 faciliter la gestion des dépendances entre les dev et les sysadmin
 conteneur => 1 ou plusieurs process /  isolation avec cgroups et namespaces=> actication d'une image de manière isolée
 image => enveloppe de stockage = code de programme + toutes les dépendances
-
+$$
 infra -> serveur - os - docker engine = conteneur runtime -> dep -> app1 
                                                           -> dep -> app2
 
