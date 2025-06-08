@@ -13,6 +13,10 @@
 . commandes generales
 
 
+= Partie 2
 
-==                      ===== add on 
-gifs
+. rappel bind mount linux
+       . bind mount monte un répertoire dans un autre répertoire
+       . volume docker
+       . tmpfs 
+. 3 types de montages avec docker
